@@ -10,8 +10,8 @@ class RectangleDC:
     needed - the generated comparison checks class and all attributes.
     """
 
-    width: float = field(default=1.0)
-    height: float = field(default=1.0)
+    _width: float = field(default=1.0)
+    _height: float = field(default=1.0)
 
     def __post_init__(self) -> None:
         print (f"RectangleDC created with width={self.width} and height={self.height}")
