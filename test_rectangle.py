@@ -1,7 +1,7 @@
 """PyTest tests for rectangle.py (constructor and equality)."""
 import pytest
 
-from rectangle import Rectangle, RectangleDC
+from rectangle import Rectangle
 
 
 class TestRectangleConstructor:
