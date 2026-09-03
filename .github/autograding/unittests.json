@@ -1,0 +1,92 @@
+[
+  {
+    "name": "test_default_values",
+    "function": "test_default_values",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_values_assigned",
+    "function": "test_values_assigned",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_invalid_width_raises_value_error",
+    "function": "test_invalid_width_raises_value_error",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_equal_content_is_equal",
+    "function": "test_equal_content_is_equal",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_different_content_is_not_equal",
+    "function": "test_different_content_is_not_equalr",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_identity_vs_equality",
+    "function": "test_identity_vs_equality",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_comparison_with_other_type",
+    "function": "test_comparison_with_other_type",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_default_values_dc",
+    "function": "test_default_values_dc",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_values_assigned_dc",
+    "function": "test_values_assigned_dc",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_invalid_width_raises_value_error_dc",
+    "function": "test_invalid_width_raises_value_error_dc",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_invalid_height_raises_value_error_dc",
+    "function": "test_invalid_height_raises_value_error_dc",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_equal_content_is_equal_dc",
+    "function": "test_equal_content_is_equal_dc",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_different_content_is_not_equal_d",
+    "function": "test_different_content_is_not_equal_d",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_identity_vs_equality_dc",
+    "function": "test_identity_vs_equality_dc",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_rectangle_and_rectangledc_are_never_equal",
+    "function": "test_rectangle_and_rectangledc_are_never_equal",
+    "timeout": 10,
+    "points": 1
+  }
+]

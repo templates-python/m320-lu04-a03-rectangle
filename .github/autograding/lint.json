@@ -1,0 +1,5 @@
+{
+  "files": ["rectangle.py", "rectangle_dc.py"],
+  "ignore" : [],
+  "max": 5
+}
