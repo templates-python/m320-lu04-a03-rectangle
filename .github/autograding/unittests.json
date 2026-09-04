@@ -72,8 +72,8 @@
     "points": 1
   },
   {
-    "name": "test_different_content_is_not_equal_d",
-    "function": "test_different_content_is_not_equal_d",
+    "name": "test_different_content_is_not_equal_dc",
+    "function": "test_different_content_is_not_equal_dc",
     "timeout": 10,
     "points": 1
   },
