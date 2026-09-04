@@ -26,6 +26,8 @@ class RectangleDC:
     @width.setter
     def width(self, value):
         """ sets the width """
+        if value <= 0:
+            raise ValueError("width must be greater than 0")
         self._width = value
 
     @property
@@ -36,4 +38,6 @@ class RectangleDC:
     @height.setter
     def height(self, value):
         """ sets the height """
+        if value <= 0:
+            raise ValueError("width and height must be greater than 0")
         self._height = value

@@ -21,23 +21,27 @@ class Rectangle:
 
     def __repr__(self) -> str:
         return f"Rectangle(width={self.width}, height={self.height})"
-    
+
     @property
     def width(self):
         """ returns the width """
         return self._width
-    
+
     @width.setter
     def width(self, value):
         """ sets the width """
+        if value <= 0:
+            raise ValueError("width must be greater than 0")
         self._width = value
-        
+
     @property
-    def heigth(self):
-        """ returns the heigth """
-        return self._heigth
-    
-    @heigth.setter
-    def heigth(self, value):
-        """ sets the heigth """
-        self._heigth = value
+    def height(self):
+        """ returns the height """
+        return self._height
+
+    @height.setter
+    def height(self, value):
+        """ sets the height """
+        if value <= 0:
+            raise ValueError("width and height must be greater than 0")
+        self._height = value
